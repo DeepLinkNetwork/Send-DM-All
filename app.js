@@ -28,7 +28,6 @@ bot.on("ready", () => {
     
 });
 
-
 bot.on("error", (error) => {
     bot.login(process.env.BOT_TOKEN || config.token);
 });
