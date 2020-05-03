@@ -4,7 +4,7 @@
   "description": "A bot to send DM's to every user in a Discord server.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js --harmony"
   },
   "author": "Deepender",
   "license": "ISC",
