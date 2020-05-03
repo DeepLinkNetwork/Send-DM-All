@@ -61,7 +61,7 @@ class DMallCommand extends commando.Command {
             }
             try {
                 await sleep(2030);
-                member.send(`${msg} \n\n **Alliance Sent By DarkTangent Esports** \n https://discordapp.com/invite/kNKK5zG`);
+                member.send(`${msg} \n\n **__Message Sent By DarkTangent Esports__**`);
                 successcount++;
             } catch (error) {
                 console.log(`Failed to send DM! ` + error)
